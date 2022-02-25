@@ -28,8 +28,8 @@
             .done(function (msg) {
                 console.log(msg.documents[0].title);
                 console.log(msg.documents[0].thumbnail);
-                $( "p" ).append( "<strong>"+msg.documents[0].title+"</strong>" );
-                $( "p" ).append( "<img src='"+msg.documents[0].thumbnail+"'/>" );
+                $( "p" ).append( "<img src='"+msg.documents[0].thumbnail+"'/>" )\n;
+                $( "p" ).append( "<strong>"+msg.documents[0].title+"</strong>" );            
                   });
             });
         });          
